@@ -1,1 +1,1 @@
-# -financeapp-privacy
+# financeapp-privacy
