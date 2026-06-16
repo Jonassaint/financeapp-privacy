@@ -5,42 +5,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy — FinanceApp</title>
   <style>
-    body { font-family: sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; }
-    h1 { font-size: 1.6rem; } h2 { font-size: 1.1rem; margin-top: 2rem; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f0f; color: #e8e8e8; min-height: 100vh; }
+    .page { max-width: 680px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+    .badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; color: #7c9e8a; background: #1a2e24; border: 1px solid #2a4a38; border-radius: 20px; padding: 4px 12px; margin-bottom: 2.5rem; }
+    .dot { width: 6px; height: 6px; border-radius: 50%; background: #4caf82; }
+    h1 { font-size: 2rem; font-weight: 500; color: #f0f0f0; line-height: 1.2; margin-bottom: 0.75rem; }
+    .meta { font-size: 13px; color: #666; margin-bottom: 3rem; line-height: 1.8; }
+    .meta a { color: #5a9e7a; text-decoration: none; }
+    .divider { border: none; border-top: 1px solid #1e1e1e; margin: 2.5rem 0; }
+    .section { margin-bottom: 2.5rem; }
+    .section-label { display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 500; letter-spacing: 0.08em; color: #555; text-transform: uppercase; margin-bottom: 1rem; }
+    .section-label::after { content: ''; flex: 1; height: 1px; background: #1e1e1e; }
+    h2 { font-size: 1rem; font-weight: 500; color: #d0d0d0; margin-bottom: 0.5rem; }
+    p { font-size: 14px; color: #888; line-height: 1.8; }
+    .highlight { color: #c8e6d4; background: #1a2e24; border-left: 2px solid #3a7a58; padding: 0.75rem 1rem; margin-top: 0.75rem; font-size: 13px; line-height: 1.7; }
+    .footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid #1e1e1e; display: flex; justify-content: space-between; align-items: center; }
+    .footer-name { font-size: 13px; font-weight: 500; color: #444; }
+    .footer-date { font-size: 12px; color: #3d3d3d; }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>App:</strong> FinanceApp<br>
-  <strong>Developer:</strong> Jonassaint Cabili<br>
-  <strong>Effective date:</strong> June 15, 2026<br>
-  <strong>Contact:</strong> <a href="mailto:jonassaintcabili@gmail.com">jonassaintcabili@gmail.com</a></p>
+  <div class="page">
+    <div class="badge"><span class="dot"></span> No data collected</div>
 
-  <h2>1. Overview</h2>
-  <p>FinanceApp is a personal finance tracker for Android. This policy explains what data the app handles and how it is stored.</p>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      FinanceApp &nbsp;·&nbsp; Jonassaint Cabili<br>
+      <a href="mailto:jonassaintcabili@gmail.com">jonassaintcabili@gmail.com</a><br>
+      Effective June 15, 2026
+    </div>
 
-  <h2>2. Data We Collect</h2>
-  <p>FinanceApp does <strong>not</strong> collect, transmit, or share any personal data. All information you enter — accounts, transactions, budgets, and categories — is stored exclusively on your device using a local database.</p>
+    <div class="section">
+      <div class="section-label">Overview</div>
+      <p>FinanceApp is a personal finance tracker for Android. This policy explains how your data is handled. The short version: it isn't — everything stays on your device.</p>
+    </div>
 
-  <h2>3. No Internet Access</h2>
-  <p>The app operates entirely offline. It makes no network requests and does not connect to any servers, cloud services, or third-party APIs.</p>
+    <hr class="divider">
 
-  <h2>4. Data Storage</h2>
-  <p>Your financial data is stored locally on your Android device in a private app database. It is not accessible to other apps and is deleted when you uninstall FinanceApp.</p>
+    <div class="section">
+      <div class="section-label">Data collection</div>
+      <h2>We collect nothing.</h2>
+      <p>All information you enter — accounts, transactions, budgets, and categories — is stored exclusively in a local database on your device. No data is ever sent to us or any third party.</p>
+      <div class="highlight">FinanceApp has no backend. There are no servers receiving your information.</div>
+    </div>
 
-  <h2>5. Data Export</h2>
-  <p>FinanceApp allows you to export your data as a JSON file to a location of your choosing on your device. You are solely responsible for how you store or share exported files.</p>
+    <hr class="divider">
 
-  <h2>6. Third-Party Services</h2>
-  <p>FinanceApp does not use any third-party SDKs for analytics, advertising, crash reporting, or any other purpose.</p>
+    <div class="section">
+      <div class="section-label">Network access</div>
+      <h2>The app is fully offline.</h2>
+      <p>FinanceApp makes zero network requests. It does not connect to the internet, cloud services, or any external APIs — ever.</p>
+    </div>
 
-  <h2>7. Children's Privacy</h2>
-  <p>FinanceApp is not directed at children under 13 and does not knowingly collect information from them.</p>
+    <hr class="divider">
 
-  <h2>8. Changes to This Policy</h2>
-  <p>If this policy changes, the updated version will be posted at this URL with a new effective date.</p>
+    <div class="section">
+      <div class="section-label">Local storage</div>
+      <h2>Your data lives on your phone.</h2>
+      <p>Financial data is stored in a private app database accessible only to FinanceApp. It is automatically deleted when you uninstall the app.</p>
+    </div>
 
-  <h2>9. Contact</h2>
-  <p>Questions? Email <a href="mailto:jonassaintcabili@gmail.com">jonassaintcabili@gmail.com</a>.</p>
+    <hr class="divider">
+
+    <div class="section">
+      <div class="section-label">Data export</div>
+      <h2>Export is in your hands.</h2>
+      <p>You may export your data as a JSON file to any location on your device. You are solely responsible for how exported files are stored or shared.</p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section">
+      <div class="section-label">Third-party services</div>
+      <h2>None.</h2>
+      <p>FinanceApp uses no third-party SDKs for analytics, advertising, crash reporting, or any other purpose.</p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section">
+      <div class="section-label">Children</div>
+      <p>FinanceApp is not directed at children under 13 and does not knowingly collect information from them.</p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section">
+      <div class="section-label">Changes</div>
+      <p>If this policy changes, the updated version will be posted at this URL with a revised effective date.</p>
+    </div>
+
+    <div class="footer">
+      <span class="footer-name">FinanceApp</span>
+      <span class="footer-date">Last updated June 15, 2026</span>
+    </div>
+  </div>
 </body>
 </html>
